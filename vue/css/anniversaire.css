@@ -1,0 +1,151 @@
+@media screen and (max-width: 1050px){
+    
+    h3.w3layouts-title {
+        font-size: 41px;
+    }
+}
+h3.w3layouts-title.title-reserve {
+    color: #fff;
+    margin-bottom: 30px;
+}
+.book-left {
+    background: #E88010;
+    padding: 5em 4em 11.5em;
+    position: relative;
+}
+.book-right {
+    background:#a51c21;
+    padding:2em 0 0;
+}
+.book-right1 {
+    width: 66%;
+    float: left;
+    padding: 12em 3em 2em;
+    background: #bd2c31;
+    clip-path: polygon(0 0, 100% 35%, 101% 100%, 0% 100%);
+}
+form.book-right2 {
+    width: 100%;
+}
+.book-info h4 {
+    font-size: 30px;
+    color: #800000;
+	margin-bottom: 0.2em;
+}
+.book-info h5 {
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.8em;
+}
+.book-info h5 span.fa {
+    font-size: 0.8em;
+    vertical-align: middle;
+}
+.book-right label {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 13px;
+    text-align: left;
+    display: block;
+    font-weight: 400;
+    line-height: 1em;
+}
+.form-left {
+    float: left;
+    width: 48%;
+}
+.form-right {
+    float: right;
+    width: 48%;
+} 
+/*-- reservation --*/
+.book-right input[type="text"]{
+    width: 100%;
+    color: #555;
+    outline: none;
+    font-size: 1em;
+    padding: .8em 1em;
+    border: none;
+    -webkit-appearance: none;
+    margin-bottom: 1.5em;
+    line-height: 1.8em;
+    -webkit-box-shadow: 5px 5px 0px 0px rgb(156, 213, 196);
+    -moz-box-shadow: 5px 5px 0px 0px rgb(156, 213, 196);
+    box-shadow: 5px 5px 0px 0px rgb(156, 213, 196);
+}
+.book-right input[type="number"]{
+    width: 100%;
+    color: #555;
+    outline: none;
+    font-size: 1em;
+    padding: .8em 1em;
+    border: none;
+    -webkit-appearance: none;
+    margin-bottom: 1.5em;
+    line-height: 1.8em;
+    -webkit-box-shadow: 5px 5px 0px 0px rgb(156, 213, 196);
+    -moz-box-shadow: 5px 5px 0px 0px rgb(156, 213, 196);
+    box-shadow: 5px 5px 0px 0px rgb(156, 213, 196);
+}
+.book-right select{
+    outline: none;
+    font-size: 1em;
+    padding: .5em 1em;
+    border-radius: 0;
+    border: none;
+    height: 3em;
+    margin-bottom: 1.5em;
+    width:100%;
+    -webkit-box-shadow: 5px 5px 0px 0px rgb(156, 213, 196);
+    -moz-box-shadow: 5px 5px 0px 0px rgb(156, 213, 196);
+    box-shadow: 5px 5px 0px 0px rgb(156, 213, 196);
+}
+.book-right input[type=submit] {
+    color: #a51c21;
+    padding: 14px 0;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: 2px solid #9cd5c4;
+    outline: none;
+    border-radius: inherit;
+    background: #9cd5c4;
+    width: 100%;
+    line-height: 1em;
+}
+.book-right input[type=submit]:hover {
+    background: none;
+    transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+    -ms-transition: 0.5s all ease;
+    color: #fff;
+}
+.book-left1 {
+    background: url(../images/reserve.jpg)no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    float: left;
+    width: 17%;
+    border: 10px ridge #fff;
+}
+
+@media screen and (max-width: 320px){
+.book-left1 {
+        min-height: 200px;
+    }
+.book-left1 {
+        min-height: 185px;
+    }
+}
+
+@media screen and (max-width: 384px){
+.book-right1 {
+        padding: 2em;
+    }
+}        
+
+/*--//reservation--*/
